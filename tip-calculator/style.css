@@ -1,6 +1,7 @@
 html {
     font-size: 10px;
     color: #4e4d4d;
+    font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -58,4 +59,31 @@ input[type="number"] {
 .space-between {
     display: flex;
     justify-content: space-between;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #aaa;
+    outline-style: none;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #3dc0c0;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #3dc0c0;
+    cursor: pointer;
 }
