@@ -18,7 +18,7 @@ function update() {
     document.getElementById("tipPercent").innerText = tipPercent + "%";
     document.getElementById("tipValue").innerText = formatMoney(tip);
     document.getElementById("totalWithTip").innerText = formatMoney(total);
-    document.getElementById("splitValue").innerText = split;
+    document.getElementById("splitValue").innerText = split + " person";
     document.getElementById("billEach").innerText = formatMoney(billEach);
     document.getElementById("tipEach").innerText = formatMoney(tipEach);
 }
