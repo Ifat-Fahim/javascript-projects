@@ -4,6 +4,6 @@ If you are a beginner and looking for javascript project this repository is perf
 
 #### Projects list with live demo
 
-| Project        | Live Demo                                                                     |
-| -------------- | ----------------------------------------------------------------------------- |
-| Tip Calculator | [Live Demo](https://ifat-fahim.github.io/javascript-projects/tip-calculator/) |
+| NO. | Project        | Live Demo                                                                     |
+| --- | -------------- | ----------------------------------------------------------------------------- |
+| 1.  | Tip Calculator | [Live Demo](https://ifat-fahim.github.io/javascript-projects/tip-calculator/) |
