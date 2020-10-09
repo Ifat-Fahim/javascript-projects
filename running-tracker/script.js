@@ -24,6 +24,17 @@ function weeklyHigh(entries) {
     document.getElementById("high").innerText = high;
 }
 
+function calcGoal() {
+    const totalValue = entries.reduce(reducer).toFixed(1);
+    let completedPercent = (totalValue / 25) * 100;
+    const progressCircle = document.getElementById("progressCircle");
+    if (completedPercent > 100) {
+        completedPercent = 100;
+    }
+    progressCircle.style.background = `conic-gradient(#70db70 ${completedPercent}%, #2d3740 ${completedPercent}% 100%)`;
+    console.log(progressCircle);
+}
+
 function addNewEntry(newEntry) {
     const entriesWrapper = document.getElementById("entries");
     entriesWrapper.removeChild(entriesWrapper.firstElementChild);
@@ -41,4 +52,5 @@ function handleSubmit(e) {
     addNewEntry(entry);
     calcTotal(entries);
     weeklyHigh(entries);
+    calcGoal();
 }
