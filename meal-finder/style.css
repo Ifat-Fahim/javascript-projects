@@ -35,8 +35,7 @@ input[type="text"]:focus {
     background: #fff;
 }
 
-#submit,
-#randomMeal {
+#submit {
     padding: 8px 12px;
     border: 0;
     outline: 0;
@@ -47,16 +46,8 @@ input[type="text"]:focus {
     font-weight: bold;
 }
 
-#randomMeal {
-    margin: 10px 0 0 0;
-}
-
 #resultHeading {
     text-align: center;
-}
-
-.hide-overflow {
-    overflow: hidden;
 }
 
 .meal-container {
@@ -83,6 +74,7 @@ input[type="text"]:focus {
     justify-content: center;
     transition: all 0.5s ease-in-out;
     opacity: 0;
+    border-radius: 2px;
 }
 
 .meal:hover .meal-info {

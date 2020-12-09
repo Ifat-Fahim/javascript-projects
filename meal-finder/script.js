@@ -28,11 +28,11 @@ async function searchMeal(e) {
                 .map(
                     (meal) =>
                         `<div class="meal">
-                    <img src="${meal.strMealThumb}" alt="">
-                    <div class="meal-info" data-mealId=${meal.idMeal}>
-                        <h3>${meal.strMeal}</h3>
-                    </div>
-                 </div>`
+                            <img src="${meal.strMealThumb}" alt="">
+                            <div class="meal-info" data-mealId=${meal.idMeal}>
+                                <h3>${meal.strMeal}</h3>
+                            </div>
+                        </div>`
                 )
                 .join("");
         }
