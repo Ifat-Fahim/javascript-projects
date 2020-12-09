@@ -9,3 +9,4 @@ If you are a beginner and looking for javascript project this repository is perf
 | 1.  | Tip Calculator  | [Live Demo](https://ifat-fahim.github.io/javascript-projects/tip-calculator/)  |
 | 2.  | Running Tracker | [Live Demo](https://ifat-fahim.github.io/javascript-projects/running-tracker/) |
 | 3.  | Piano           | [Live Demo](https://ifat-fahim.github.io/javascript-projects/piano/index.html) |
+| 3.  | Meal Finder     | [Live Demo](https://ifat-fahim.github.io/javascript-projects/meal-finder/)     |
