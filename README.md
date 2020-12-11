@@ -4,9 +4,10 @@ If you are a beginner and looking for javascript project this repository is perf
 
 #### Projects list with live demo
 
-| NO. | Project         | Live Demo                                                                      |
-| --- | --------------- | ------------------------------------------------------------------------------ |
-| 1.  | Tip Calculator  | [Live Demo](https://ifat-fahim.github.io/javascript-projects/tip-calculator/)  |
-| 2.  | Running Tracker | [Live Demo](https://ifat-fahim.github.io/javascript-projects/running-tracker/) |
-| 3.  | Piano           | [Live Demo](https://ifat-fahim.github.io/javascript-projects/piano/index.html) |
-| 3.  | Meal Finder     | [Live Demo](https://ifat-fahim.github.io/javascript-projects/meal-finder/)     |
+| NO. | Project           | Live Demo                                                                                  |
+| --- | ----------------- | ------------------------------------------------------------------------------------------ |
+| 1.  | Tip Calculator    | [Live Demo](https://ifat-fahim.github.io/javascript-projects/tip-calculator/)              |
+| 2.  | Running Tracker   | [Live Demo](https://ifat-fahim.github.io/javascript-projects/running-tracker/)             |
+| 3.  | Piano             | [Live Demo](https://ifat-fahim.github.io/javascript-projects/piano/index.html)             |
+| 4.  | Meal Finder       | [Live Demo](https://ifat-fahim.github.io/javascript-projects/meal-finder/index.html)       |
+| 5.  | Numeral Converter | [Live Demo](https://ifat-fahim.github.io/javascript-projects/numeral-converter/index.html) |
