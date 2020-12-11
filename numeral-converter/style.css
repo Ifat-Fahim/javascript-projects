@@ -82,6 +82,21 @@ input[type="submit"]:hover {
     word-spacing: 3px;
 }
 
+footer {
+    background: #3d5af1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Lobster", cursive;
+    font-weight: 100;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
 @media (max-width: 576px) {
     form {
         display: flex;
